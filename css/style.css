@@ -167,7 +167,8 @@ Medium: 11px
   padding-bottom: 3.2rem;
   color: #555;
   background-color: #eaedf6;
-  height: 100vh;
+  /* background-image: url(../img/rooftop-concrete-waterproofing-slide.jpg); */
+  /* height: 100vh; */
   /* background-color: #292b32; */
   /* background-color: #131c21; */
 }
@@ -175,4 +176,37 @@ Medium: 11px
 .container {
   max-width: 120rem;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+}
+
+.hero-description {
+  margin-top: 3.2rem;
+  /* width: 50%; */
+}
+
+.hero-header {
+  font-size: 4.2rem;
+  color: #555;
+  font-weight: 600;
+}
+
+.hero-summary {
+  margin-top: 3.2rem;
+  color: #555;
+  font-size: 2rem;
+}
+
+.hero-btn {
+  margin-top: 6.4rem;
+}
+
+.btn-hero {
+  padding: 1.6rem 3.2rem;
+  font-size: 1.8rem;
+}
+
+.hero-image {
+  width: 100%;
 }
