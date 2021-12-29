@@ -164,8 +164,8 @@ Medium: 11px
 } */
 
 .hero {
-  padding: 2.4rem 2.4rem;
-  padding-bottom: 3.2rem;
+  padding: 4rem 2.4rem;
+  padding-bottom: 8rem;
   color: #555;
   background-color: #eaedf6;
   /* background-color: #050710; */
@@ -210,5 +210,42 @@ Medium: 11px
 }
 
 .hero-image {
+  width: 100%;
+}
+
+/* SERVICES */
+
+.heading1 {
+  margin: 4rem auto;
+  font-size: 3.6rem;
+  text-align: center;
+  color: #333;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.container-service {
+  grid-template-columns: 1fr;
+  /* background-color: #fdf2e9; */
+}
+
+.service-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.service-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.service-img {
+}
+
+.service-row img {
+  padding: 8rem;
   width: 100%;
 }
